@@ -1,12 +1,12 @@
 # Emotion-Detection-System
 
-This repository contains the implementation of an emotion recognition model using the VGG16 architecture. The project involves fine-tuning a pre-trained VGG16 model for emotion classification tasks, and the necessary code and model weights are provided.
+This repository contains the implementation of an emotion recognition model using the VGG16 architecture. The project involves fine-tuning a pre-trained VGG16 model for emotion classification tasks, and the necessary code is provided.
 
 ## Contents of the Repository
 
 1. **`Vggmain.ipynb`**: The main notebook for setting up the VGG16 model, training, and evaluating it on the dataset.
 2. **`try 2 vgg16 fine tune.ipynb`**: A notebook showcasing fine-tuning techniques applied to the VGG16 model to improve performance.
-3. **`emotion_recognition_model.h5`**: The pre-trained model weights for the emotion recognition task.
+
 
 ## Key Features
 
@@ -46,7 +46,6 @@ pip install tensorflow keras numpy pandas matplotlib
 
 3. To fine-tune the model, open and run the `try 2 vgg16 fine tune.ipynb` notebook.
 
-4. The pre-trained model (`emotion_recognition_model.h5`) can be loaded and used directly for inference.
 
 ## Model Details
 
@@ -67,9 +66,6 @@ You can load the model weights as follows:
 ```python
 from tensorflow.keras.models import load_model
 
-model = load_model('emotion_recognition_model.h5')
-# Use the model for predictions
-```
 
 ## Contribution
 
