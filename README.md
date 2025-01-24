@@ -10,7 +10,7 @@ This repository contains the implementation of an emotion recognition model usin
 
 ## Key Features
 
-- Fine-tuning of the VGG16 model for emotion recognition.
+- Fine-tuning of the VGG16 model  using FER2013 dataset for emotion recognition.
 - Includes trained model weights to save training time.
 - Reproducible code for training and evaluation.
 
