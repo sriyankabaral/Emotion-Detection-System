@@ -1,6 +1,6 @@
 # Emotion-Detection-System
 
-This repository contains the implementation of an emotion recognition model using the VGG16 architecture. The project involves fine-tuning a pre-trained VGG16 model for emotion classification tasks, and the necessary code is provided.
+This repository contains the implementation of an emotion recognition model using the VGG16 architecture. The project involves fine-tuning a pre-trained VGG16 model  for emotion classification tasks using FER2013 dataset, and the necessary code is provided.
 
 ## Contents of the Repository
 
