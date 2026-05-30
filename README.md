@@ -1,6 +1,6 @@
 # Emotion-Detection-System
 
-This repository contains the implementation of an emotion recognition model using the VGG16 architecture. The project involves fine-tuning a pre-trained VGG16 model  for emotion classification tasks using FER2013 dataset, and the necessary code is provided.
+This repository contains the implementation of an emotion recognition model using the VGG16 architecture.The project involves fine-tuning a pre-trained VGG16 model for emotion classification using the FER2013 dataset combined with additional custom facial emotion datasets, and the necessary code is provided.
 
 ## Contents of the Repository
 
@@ -10,7 +10,7 @@ This repository contains the implementation of an emotion recognition model usin
 
 ## Key Features
 
-- Fine-tuning of the VGG16 model  using FER2013 dataset for emotion recognition.
+- Fine-tuning of the VGG16 model using the FER2013 dataset along with custom emotion image datasets.
 - Includes trained model weights to save training time.
 - Reproducible code for training and evaluation.
 
@@ -50,7 +50,7 @@ pip install tensorflow keras numpy pandas matplotlib
 ## Model Details
 
 - **Architecture**: VGG16 (Pre-trained on ImageNet)
-- **Dataset**: Custom dataset for emotion recognition (not included; you can replace it with your own dataset).
+- **Dataset**: FER2013 dataset combined with additional custom facial emotion dataset (not included; you can replace it with your own dataset).
 - **Output**: Emotion classes such as Happy, Sad, Angry, Neutral, etc.
 
 ## Results
